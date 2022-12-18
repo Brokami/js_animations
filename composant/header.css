@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    background-image: linear-gradient(black, grey);
+    justify-content: flex-start;
+    width:100%;
+}
+
+header h1 {
+    margin:auto;
+    color: white;
+}
+
+header a{
+    width: 20%;
+}
+
+header a img{
+    width: 75%
+}
+
+@keyframes headerColor{
+    from{
+        background-image: linear-gradient(black,gray);
+
+    }
+
+    to{
+        background-image: linear-gradient(gray,black);
+    }
+}

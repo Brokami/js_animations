@@ -1,0 +1,90 @@
+@import url(composant/buttons.css);
+@import url(composant/container.css);
+@import url(composant/navBar.css);
+@import url(composant/header.css);
+@import url(composant/footer.css);
+@import url(composant/subContainer.css);
+@import url(composant/description.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    background-color: grey;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+}
+
+h2 {
+    font-family: 'Righteous', cursive;
+}
+
+h3 {
+    font-family: 'Righteous', cursive;
+}
+
+#ouraScreen{
+    width: 75%;
+}
+
+@media (min-width:481px){
+    h1{
+        font: size 72px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+}
+
+.night{
+    background-color: rgb(29, 29, 29);
+    color: whitesmoke;
+}
+
+.day{
+    background-color: whitesmoke;
+    color: rgb(36, 36, 36);
+}
+
+.bordure{min-height: 70px; background: #eee;
+}
+
+.red {
+  background-color: rgb(255, 0, 0);
+}
+
+.brown {
+   background-color: brown;
+}
+
+.yellow {
+   background-color: rgba(255, 208, 0, 0.911);
+}
+
+.black{
+   background-color: black;
+}
+
+.blue{
+   background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+label[for=element-toggle] {
+   cursor: pointer;
+   color: blue;
+ }
+
+
+
+

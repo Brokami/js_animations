@@ -1,0 +1,49 @@
+.menuButton {
+    font-size: 15px;
+    width: 110%;
+    text-align: center;
+    border: 2px solid rgb(168, 168, 168);
+    border-radius: 10%;
+    background-color: rgb(197, 197, 197);
+    
+}
+
+@media (min-width:481px){
+    .menuButton{
+        width: 90%;
+        text-align: center;
+        font-size: 22px;
+        border: 5px solid black;
+        border-radius: 30%;
+    }
+
+    a{
+        width: 90%;
+    }
+}
+
+button {
+    border-radius: 50%;
+    animation: buttonAnim 5s infinite;
+}
+
+button:hover{
+    scale:1.1;
+    color: rgb(236, 236, 236);
+    background-color: rgb(0, 0, 0);
+}
+
+#nightButton{
+    margin-right: 30px;
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
+
+
+#thanks{
+    width: 200px;
+    height: 100px;
+    margin-bottom: 50px;
+    background-color: dimgrey;
+}

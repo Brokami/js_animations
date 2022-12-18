@@ -1,0 +1,13 @@
+.subContainer {
+    outline: 8px ridge rgb(7, 6, 6);
+    border-radius: 1rem;
+    background-color: rgb(233, 233, 233);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

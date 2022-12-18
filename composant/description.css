@@ -1,0 +1,36 @@
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.descriptionImages{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    width: 80%;
+}
+
+@media (min-width:481px){
+    .description{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 5%;
+        border: 2px solid;
+        justify-content: space-evenly;
+    }
+
+    .descriptionImages {
+        justify-content: space-evenly;
+        width: 35%;
+
+    }
+
+    .description p{
+        margin-left: 25px;
+        width: 35%;
+    }
+}
+
+

@@ -1,0 +1,22 @@
+footer{
+    display: flex;
+    justify-content:space-evenly;
+    background-image: linear-gradient(grey,black);
+    align-items: center;
+}
+
+footer h2 {
+    color: rgb(252, 252, 252);
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+}
+footer img{
+    width: 30%;
+    padding: 5%;
+}
+
+footer a{
+    width: 15%;
+}
